@@ -1,5 +1,5 @@
-const Parrafo = ({textParagraph}) => {
-    return <p>{textParagraph}</p>
-}
+const Parrafo = ({ textParagraph }) => {
+  return <p>{textParagraph}</p>;
+};
 
 export default Parrafo;
