@@ -11,6 +11,7 @@ const Gallery = () => {
     const data = res.data.results;
 
     setCharacter(data);
+    console.log(data);
   }
 
   useEffect(() => {
@@ -20,7 +21,8 @@ const Gallery = () => {
   return (
     <main>
       <h1>PERSONAJES</h1>
-      {character.map((charac) => <figure key={charac.id} >
+      {character.map((charac) => 
+      <figure key={charac.id} >
         <img src={charac.image} alt={charac.name}></img>
         <h2>{charac.name.toUpperCase()}</h2>
       </figure>)}
