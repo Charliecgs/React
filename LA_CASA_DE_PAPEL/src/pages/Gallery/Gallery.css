@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     border: solid #bf2925 5px;
-
+    transition: all 0.7s ease-in-out;
 }
 
 .divPolicias{
@@ -21,6 +21,7 @@
      border: solid #bf2925 5px;
      background-position: 72%;
      background-size: 240%;
+     transition: all 0.7s ease-in-out;
  
  }
 
@@ -35,6 +36,7 @@
      border: solid #bf2925 5px;
      background-position: 50%;
      background-size: 200%;
+     transition: all 0.7s ease-in-out;
  }
 
 main{
@@ -56,15 +58,12 @@ main{
 
 .divAtracadores:hover{
     scale: 1.2;
-    transition: ease-in-out 1s;
 }
 .divPolicias:hover{
     scale: 1.2;
-    transition: ease-in-out 1s;
 }
 .divRehenes:hover{
     scale: 1.2;
-    transition: ease-in-out 1s;
 }
 
 
