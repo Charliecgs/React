@@ -5,17 +5,17 @@ const Gallery = () => {
   return <main class="gallery">
   <NavLink to="/atracadores">
     <div className="divAtracadores">
-    Atracadores
+    <h2>Atracadores</h2>
     </div>
     </NavLink>
     <NavLink to="/policias">
     <div className="divPolicias">
-    Policias / Militares
+    <h2>Policias/Militares</h2>
     </div>
     </NavLink>
     <NavLink to="/rehenes">
     <div className="divRehenes">
-    Rehenes
+    <h2>Rehenes</h2>
     </div>
     </NavLink>
   </main>

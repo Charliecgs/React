@@ -17,7 +17,7 @@ const Header = () => {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>{user == null && <NavLink to="/login">Login</NavLink>}</li>
-        <li>{user !== null && <NavLink to="/gallery">Gallery</NavLink>}</li>
+        <li>{localStorage.getItem("user") && <NavLink to="/gallery">Gallery</NavLink>}</li>
         <li>
           <NavLink to="/about">About</NavLink>
         </li>

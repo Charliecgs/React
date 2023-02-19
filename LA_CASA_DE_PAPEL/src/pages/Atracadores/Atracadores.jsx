@@ -39,6 +39,8 @@ const Atracadores = () => {
   //       ))}
   //     </div>
 
+  const vivos = filterAtracador.map((atrac) => atrac.status === "alive");
+
   return (
     <main className="money-heist-page-atracadores">
       <h2 className="h2Atracadores">ATRACADORES</h2>
@@ -49,6 +51,10 @@ const Atracadores = () => {
         type="text"
         placeholder="Buscar..."
       />
+
+      <button onClick={() => {
+        {vivos.map}
+      }}>Vivos</button>
 
       <div className="chara">
 
