@@ -1,0 +1,26 @@
+.login{
+    border: solid white 5px;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    border-radius: 12px;
+    max-width: 800px;
+}
+
+@media(max-width: 500px){
+    .login{
+        border: solid white 5px;
+        padding: 50px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 2rem;
+        border-radius: 12px;
+    }
+  }
